@@ -1,0 +1,225 @@
+body {
+    background-color:#E5E5E5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Right section styles */
+
+.right-section{
+    padding-left: 90px;
+    padding-right: 220px;
+    background-color: #fff;
+    border-style: solid;
+    border-width: medium;
+    border-color: #000;
+    transform:
+    perspective(800px)
+    rotateY(-3deg);
+    transition: transform 1s ease 0s;
+    border-radius: 4px;
+    box-shadow:
+        rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+        rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+        rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+}
+
+.right-section:hover {
+    transform: perspective(800px) rotateY(0deg);
+}
+
+.about-me-profession{
+    color: black;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 100px;
+}
+
+#personName{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 30px;
+}
+
+.main-section{
+    display: flex;
+    flex-direction: row-reverse; 
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.about-me-section{
+    padding-top: 15px;
+    padding-right: 15px;
+    width: 400px;
+}
+
+.about-me-section p{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.projects-section{
+    margin: 40px 0 0 0;
+
+}
+
+.projects-section ol{
+    padding-left: 18px;
+}
+
+ol li, .bracket{
+    font-weight: 700;
+    color: #000000;    
+}
+
+
+.projects-item{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #595959;
+    margin-left: 10px;
+}
+
+.projects-item a{
+    color: #595959;
+}
+
+.block-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+}
+
+.work-experience-section{
+    margin-top: 50px;
+}
+
+.work-experience-position, .education-type{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+}
+
+.work-experience-company, .education-place{
+    color: #FB6D3A;
+}
+
+.work-experience-period, .education-period {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+}
+
+.vertical-line{
+    color: #000;
+}
+
+.work-experience-duties, .education-subjects{
+    padding-left: 18px;
+}
+
+.work-experience-duties li, .education-subjects li{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+.education-section{
+    margin-top: 40px;
+    padding-bottom: 100px;
+}
+
+/* Sidebar styles */
+
+.sidebar-section{
+    background-color: #1E2939;
+    width: 370px;
+    border-style: solid;
+    border-width: medium;
+    border-color: #000;
+    transform:
+    perspective(800px)
+    rotateY(3deg);
+    transition: transform 1s ease 0s;
+    border-radius: 3px;
+    box-shadow:
+        rgba(0, 0, 0, 0.024) 0px 0px 0px 1px,
+        rgba(0, 0, 0, 0.05) 0px 1px 0px 0px,
+        rgba(0, 0, 0, 0.03) 0px 0px 8px 0px,
+        rgba(0, 0, 0, 0.1) 0px 20px 30px 0px;
+}
+
+.sidebar-section:hover {
+    transform: perspective(800px) rotateY(0deg);
+}
+
+.sidebar-section img{
+    margin-top: 40px;
+}
+
+.sidebar-title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #fff;
+}
+
+.contacts-section, .tech-skills-section, .soft-skills-section{
+    margin-left: 40px;
+}
+
+.contacts-section-type{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.contacts-section-value{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #575F6B;
+}
+
+.sidebar-list{
+    color: #FB6D3A;
+    padding-left: 20px;
+}
+
+.sidebar-list span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color:#fff;
+}
